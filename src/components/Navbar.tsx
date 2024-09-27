@@ -8,7 +8,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="py-2 px-4 text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
+              className="py-2 px-4 font-rocMid text-base text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
             >
               Home
             </NavLink>
@@ -16,7 +16,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="py-2 px-4 text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
+              className="py-2 px-4 font-rocMid text-base text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
             >
               My story
             </NavLink>
@@ -24,7 +24,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="py-2 px-4 text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
+              className="py-2 px-4 font-rocMid text-base text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
             >
               Project library
             </NavLink>
@@ -32,7 +32,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="py-2 px-4 text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
+              className="py-2 px-4 font-rocMid text-base text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
             >
               UI kits
             </NavLink>
@@ -40,7 +40,7 @@ export default function Navbar() {
           <li>
             <NavLink
               to={"/"}
-              className="py-2 px-4 text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
+              className="py-2 px-4 font-rocMid text-base text-item hover:bg-white hover:text-black hover:rounded-md duration-300"
             >
               Blogs
             </NavLink>
@@ -48,7 +48,7 @@ export default function Navbar() {
         </ul>
       </div>
       <div className="flex items-center gap-2">
-        <span className="text-item">Contact me</span>
+        <span className="text-item font-rocMid">Contact me</span>
         <span className="flex items-center justify-center w-[30px] h-[30px] rounded-full bg-primary">
           <svg
             stroke="#ffff"

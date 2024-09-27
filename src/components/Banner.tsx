@@ -1,4 +1,5 @@
 import { NavLink } from "react-router-dom";
+import manjurulIslam from "../../public/titleImage.png";
 
 export default function Banner() {
   return (
@@ -10,6 +11,7 @@ export default function Banner() {
         <div className="flex flex-col items-center">
           <div className="text-[54px] leading-[72px] text-center font-rocReg text-white mb-2.5 tracking-[-2.7px]">
             I’m{" "}
+            <img src={manjurulIslam} alt="Manjurul islam" className="inline" />{" "}
             <strong className="font-rocBold text-[#B9F49B]">
               Manjurul Islam
             </strong>{" "}
