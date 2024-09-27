@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #f7f6ef;
+  padding: 0 24px;
+}
+
+@font-face {
+  font-family: "rocGroteskLight";
+  src: url("./Font/RocGrotesk-Light.woff2") format("woff2"),
+    url("./Font/RocGrotesk-Light.woff") format("woff");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskReg";
+  src: url("./Font/RocGrotesk-Regular.woff2") format("woff2"),
+    url("./Font/RocGrotesk-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskMid";
+  src: url("./Font/RocGrotesk-Medium.woff2") format("woff2"),
+    url("./Font/RocGrotesk-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rocGroteskBold";
+  src: url("./Font/RocGrotesk-Bold.woff2") format("woff2"),
+    url("./Font/RocGrotesk-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
