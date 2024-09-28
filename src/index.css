@@ -38,3 +38,51 @@ body {
   font-weight: 700;
   font-style: normal;
 }
+
+.experienceCard1::after {
+  content: "";
+  position: absolute;
+  right: -110.5px;
+  top: -142px;
+  width: 100%;
+  height: 100%;
+  border-radius: 330px;
+  background: #ff897d;
+  filter: blur(65px);
+  z-index: 11111;
+}
+.experienceCard2::after {
+  content: "";
+  position: absolute;
+  right: -110.5px;
+  top: -142px;
+  width: 100%;
+  height: 100%;
+  border-radius: 330px;
+  background: #62e0e6;
+  filter: blur(65px);
+  z-index: 11111;
+}
+.experienceCard3::after {
+  content: "";
+  position: absolute;
+  right: -110.5px;
+  top: -142px;
+  width: 100%;
+  height: 100%;
+  border-radius: 330px;
+  background: #ff8cc6;
+  filter: blur(65px);
+  z-index: 11111;
+}
+.experienceCard4::after {
+  content: "";
+  position: absolute;
+  right: -110.5px;
+  top: -142px;
+  width: 100%;
+  height: 100%;
+  border-radius: 330px;
+  background: #7195ff;
+  filter: blur(65px);
+}

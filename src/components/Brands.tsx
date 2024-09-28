@@ -32,7 +32,7 @@ export default function Brands() {
       contents={companies}
       prefix="companies"
       animationDuration={30}
-      className="pt-[40px] pb-[50px]"
+      className="py-[55px]"
     />
   );
 }
